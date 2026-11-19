@@ -1,0 +1,16 @@
+{
+  "config": {
+    "default": true,
+    // Long lines are fine in docs and tables
+    "MD013": false,
+    // Allow inline HTML comments in templates
+    "MD033": false,
+    // Templates contain placeholder headings and blank sections
+    "MD041": false,
+    // Duplicate headings across sections are fine (e.g. "Install")
+    "MD024": { "siblings_only": true },
+    // Don't force aligned table pipes
+    "MD060": false
+  },
+  "ignores": ["node_modules/**"]
+}
